@@ -15,7 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <testng.version>7.7.0</testng.version>
         <surefire.version>2.19.1</surefire.version>
-        <selenium.version>4.1.4</selenium.version>
+        <selenium.version>4.21.0</selenium.version>
         <json-simple.version>1.1.1</json-simple.version>
         <config.file>config/sample-test.testng.xml</config.file>
     </properties>

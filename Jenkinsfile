@@ -7,11 +7,6 @@ pipeline {
                 git 'https://github.com/emrex32/bs-cadet'
             }
         }
-        stage('Build') {
-                    steps {
-                        bat 'mvn clean install'
-                    }
-                }
         stage('compile') {
             steps {
                 bat 'mvn compile'

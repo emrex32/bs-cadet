@@ -9,12 +9,12 @@ pipeline {
         }
         stage('compile') {
             steps {
-                bat 'mvn compile'
+                mvn 'compile'
             }
         }
         stage('Run Tests'){
             steps{
-                bat 'mvn test -P sample-test'
+                mvn 'test -P sample-test'
             }
         }
     }

@@ -9,7 +9,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                bat 'compile'
+                bat 'mvn compile'
             }
         }
         stage('Run Tests'){

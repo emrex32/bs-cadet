@@ -31,7 +31,7 @@ public class SeleniumTest {
         capabilities.setCapability("build", buildName); // CI/CD job name using BROWSERSTACK_BUILD_NAME env variable
         capabilities.setCapability("browserstack.local", browserstackLocal);
         capabilities.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
-        driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com/wd/hub"), capabilities);
+        driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com"), capabilities);
     }
 
     @AfterMethod(alwaysRun = true)

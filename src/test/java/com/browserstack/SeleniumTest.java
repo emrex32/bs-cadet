@@ -21,6 +21,7 @@ public class SeleniumTest {
         String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
         String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
         String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("os", "Windows");
         capabilities.setCapability("os_version", "10");

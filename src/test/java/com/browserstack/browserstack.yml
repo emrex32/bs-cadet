@@ -13,7 +13,7 @@ accessKey: 76ZWZphyxiAp8Vpq6MZj
 # Set 'projectName' to the name of your project. Example, Marketing Website
 projectName: BrowserStack Samples
 # Set `buildName` as the name of the job / testsuite being run
-buildName: BROWSERSTACK_BUILD_NAME
+buildName: jenkins-BS_TEST_LOCAL_NEW
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution

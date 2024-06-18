@@ -11,9 +11,9 @@ accessKey: 76ZWZphyxiAp8Vpq6MZj
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-# projectName: BrowserStack Samples
+projectName: BrowserStack Samples
 # Set `buildName` as the name of the job / testsuite being run
-# buildName: browserstack build
+buildName: browserstack build
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution
@@ -61,9 +61,9 @@ source: testng:sample-master:v1.1
 browserstackLocal: true # <boolean> (Default false)
 
 # Options to be passed to BrowserStack local in-case of advanced configurations
-# browserStackLocalOptions:
+browserStackLocalOptions:
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
-  # forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
+  forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
   # Entire list of arguments available here -> https://www.browserstack.com/docs/automate/selenium/manage-incoming-connections
   
 # ===================

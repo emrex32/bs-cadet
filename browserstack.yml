@@ -13,7 +13,7 @@ accessKey: 76ZWZphyxiAp8Vpq6MZj
 # Set 'projectName' to the name of your project. Example, Marketing Website
 projectName: BrowserStack Samples
 # Set `buildName` as the name of the job / testsuite being run
-buildName: jenkins-BS_TEST_LOCAL_NEW
+buildName: '${BROWSERSTACK_BUILD_NAME}'
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution
@@ -58,12 +58,12 @@ source: testng:sample-master:v1.1
 # ==========================================
 # Set browserStackLocal to true if your website under test is not accessible publicly over the internet
 # Learn more about how BrowserStack Local works here -> https://www.browserstack.com/docs/automate/selenium/local-testing-introduction
-browserstackLocal: true # <boolean> (Default false)
+#browserstackLocal: true # <boolean> (Default false)
 
 # Options to be passed to BrowserStack local in-case of advanced configurations
-browserStackLocalOptions:
+#browserStackLocalOptions:
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
-  forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
+  #forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
   # Entire list of arguments available here -> https://www.browserstack.com/docs/automate/selenium/manage-incoming-connections
 
 # ===================

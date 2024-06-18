@@ -7,8 +7,8 @@ public class BStackLocalTest extends SeleniumTest {
 
     @Test
     public void test() throws Exception {
-        driver.get("http://bs-local.com:45454/");
+        driver.get("https://gold.dat.de");
 
-        Assert.assertTrue(driver.getTitle().contains("BrowserStack Local"));
+        Assert.assertTrue(driver.getTitle().contains("DAT - die Brancheninstitution"));
     }
 }

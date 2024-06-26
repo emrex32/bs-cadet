@@ -14,7 +14,7 @@ platforms:
     osVersion: 15
     browserName: Chromium
     deviceOrientation: portrait
-parallelsPerPlatform: 1
+parallelsPerPlatform: 3
 browserstackLocal: true
 buildName: JENKINS_LABEL
 buildIdentifier: ${BUILD_NUMBER}
@@ -22,5 +22,3 @@ projectName: BrowserStack Sample
 testObservability: true
 networkLogs: true
 consoleLogs: info
-percy: false
-percyCaptureMode: auto

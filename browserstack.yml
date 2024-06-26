@@ -1,0 +1,26 @@
+userName: halilcadet_o8VZpN
+accessKey: 76ZWZphyxiAp8Vpq6MZj
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: ${BUILD_NAME}
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+testObservability: true
+networkLogs: true
+consoleLogs: info
+percy: false
+percyCaptureMode: auto

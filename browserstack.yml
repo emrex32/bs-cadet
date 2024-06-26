@@ -16,7 +16,7 @@ platforms:
     deviceOrientation: portrait
 parallelsPerPlatform: 1
 browserstackLocal: true
-buildName: ${BUILD_NAME}
+buildName: JENKINS_LABEL
 buildIdentifier: ${BUILD_NUMBER}
 projectName: BrowserStack Sample
 testObservability: true

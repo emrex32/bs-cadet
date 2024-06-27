@@ -10,10 +10,6 @@ platforms:
     osVersion: Monterey
     browserName: Safari
     browserVersion: 15.6
-  - deviceName: iPhone 13
-    osVersion: 15
-    browserName: Chromium
-    deviceOrientation: portrait
 parallelsPerPlatform: 3
 buildIdentifier: ${BUILD_NUMBER}
 projectName: BrowserStack Sample

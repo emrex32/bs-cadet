@@ -9,6 +9,6 @@ public class BStackLocalTest extends SeleniumTest {
     public void test() throws Exception {
         driver.get("http://datwin64/");
 
-        Assert.assertTrue(driver.getTitle().contains("DAT - die Brancheninstitution"));
+        Assert.assertTrue(driver.getTitle().contains("ZEUS WebServices - Login"));
     }
 }

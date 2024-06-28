@@ -14,8 +14,10 @@ platforms:
     osVersion: 15
     browserName: Chromium
     deviceOrientation: portrait
-parallelsPerPlatform: 1
+parallelsPerPlatform: 3
+browserstackLocal: true
 buildIdentifier: ${BUILD_NUMBER}
 projectName: BrowserStack Sample
 testObservability: true
-
+networkLogs: true
+consoleLogs: info
